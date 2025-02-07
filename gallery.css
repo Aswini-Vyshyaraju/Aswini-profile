@@ -1,0 +1,45 @@
+body {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+
+.gallery{
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #c2a09e;
+    color: white;
+    padding: 20px 0;
+}
+
+.gallery-background{
+    background-color: #e6dbda;
+}
+
+.g-3{
+    padding-bottom: 20px;
+}
+a{
+    color:white !important;
+   text-decoration: none !important ;
+}
+a:hover{
+   color:#ecd6d5;
+   
+}
