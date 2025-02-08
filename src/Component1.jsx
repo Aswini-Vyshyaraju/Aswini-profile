@@ -17,7 +17,7 @@ function Component1() {
                 </div>
 
                 <div className="row info">
-                    <h1 className="name">I’m Aswini Vyshyaraju</h1>
+                    <h1 className="name">I’m Aswini Vysyaraju</h1>
                     <h1 className="interest">Photographer / Artist / Traveller</h1>
                     <p>Hi There, I'm passionate to travelling, Drawing, and photography who finds beauty in every corner of the world.
                        And My Favorite Place is ARAKU.

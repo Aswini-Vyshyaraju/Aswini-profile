@@ -19,7 +19,7 @@ function About() {
             <div className="row">
                 <div className="profile">
                     <img src={profile} alt="profile-pic" className="profile-pic" />
-                    <div className="about">Aswini Vyshyaraju</div>
+                    <div className="about">Aswini Vysyaraju</div>
                 </div>
              
             </div>
