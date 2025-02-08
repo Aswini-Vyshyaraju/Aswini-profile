@@ -1,4 +1,17 @@
 function Navbar(){
+
+ useEffect(() => {
+    const meta = document.createElement("meta");
+    meta.name = "google-site-verification";
+    meta.content = "3y3MmdncIcM91MHz9MpTX7-jCfKqhG6tvsw-NHeO8w8";
+    document.head.appendChild(meta);
+
+    return () => {
+      document.head.removeChild(meta);
+    };
+        
+    }, []);
+    
     return(
         <>
         <div className="container">
