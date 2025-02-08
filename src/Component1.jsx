@@ -6,14 +6,13 @@ function Component1() {
     useEffect(() => {
         document.title = "Aswini Vyshyaraju - Profile";
 
-        const metaTag = document.createElement("meta");
-    metaTag.name = "google-site-verification";
-    metaTag.content = "3y3MmdncIcM91MHz9MpTX7-jCfKqhG6tvsw-NHeO8w8";
-    document.head.appendChild(metaTag);
+     const meta = document.createElement("meta");
+    meta.name = "google-site-verification";
+    meta.content = "3y3MmdncIcM91MHz9MpTX7-jCfKqhG6tvsw-NHeO8w8";
+    document.head.appendChild(meta);
 
-    // Cleanup function to remove the meta tag if the component unmounts
     return () => {
-      document.head.removeChild(metaTag);
+      document.head.removeChild(meta);
     };
         
     }, []);
