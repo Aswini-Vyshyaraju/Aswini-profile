@@ -3,12 +3,6 @@ import img1 from "./assets/Black White Modern Handwritten Square Studio Logo.png
 
 function Component1() {
 
-    useEffect(() => {
-        document.title = "Aswini Vyshyaraju - Profile";
-
-  
-        
-    }, []);
 
     return (<>
         <div className="back-color"></div>
